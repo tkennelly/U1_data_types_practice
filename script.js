@@ -16,7 +16,7 @@ const myName = "Theresa"
 var myFavoriteColor = "pink"
 console.log(myAge)
 console.log(myName)
-console.log(myfavoriteColor)
+console.log(myFavoriteColor)
 /*
  * Prompt 3:
  *
@@ -27,7 +27,7 @@ console.log(myfavoriteColor)
  *   - divide your variable by 7
  *   - calculate the remainder of dividing your variable by 2
  */
-
+let
 /*
  * Prompt 4:
  *
