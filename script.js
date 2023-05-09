@@ -68,7 +68,9 @@ let array3 = [
   ['Marty Feldman', ['Marty Marion']],
   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
 ];
-
+console.log(array1[2])
+console.log(array2[1][1])
+console.log(array[1][1][1][0])
 /*
  * Prompt 2:
  *
@@ -76,7 +78,7 @@ let array3 = [
  */
 
 let array4 = ['a', 'b', 'c', 'd', 'e'];
-
+console.log(array4[array4.length-2])
 /*
  * Prompt 3:
  *
@@ -90,10 +92,11 @@ let cathleen = ['Cathleen', 186, 'New York'];
 
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
 // the thom array and replace it with "Tom".
-
+thom.splice(0, 1, 'Tom')
 // Karolin just had her birthday; change Karolin's array to reflect her being
 // a year older.
-
+karolin.splice(2, 1, 17)
 // Change Cathleen's hometown from New York to "Gotham City".
-
+cathleen.splice(2, 1, 'Gotham City')
 // Remove "Pittsburgh" from Kristyn's array and add "Oakland".
+//pop and push (didnt finish or see an example)
