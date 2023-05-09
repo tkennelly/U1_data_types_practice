@@ -27,7 +27,12 @@ console.log(myFavoriteColor)
  *   - divide your variable by 7
  *   - calculate the remainder of dividing your variable by 2
  */
-let
+let number = 50
+console.log(number + 10)
+console.log(number - 10)
+console.log(number * 3)
+console.log(number / 7)
+console.log(number % 2)
 /*
  * Prompt 4:
  *
