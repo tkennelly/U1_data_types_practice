@@ -44,7 +44,10 @@ console.log(number % 2)
  * and lastName variables.
  * Run a console.log that says 'hello my name is..." with your fullName. 
  */
-
+let firstName = "Theresa"
+let lastName = "Kennelly"
+let fullName = `${firstName} ${lastName}`
+console.log(`Hello my name is ${fullName}.`)
 
 /* Arrays */
 
